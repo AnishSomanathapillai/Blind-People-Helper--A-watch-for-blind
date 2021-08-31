@@ -18,7 +18,7 @@
    time = pulseIn (echo_pin, HIGH);    
    distance = (time * 0.034) / 2;
 
-   if (distance <= 15)     
+   if (distance <= 70)     
    {      
   Serial.println (" object is near ");     
    Serial.print (" Distance= ");           
